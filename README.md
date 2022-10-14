@@ -8,3 +8,5 @@
 6. [S3](S3_notes.md)
 7. [Cloudfront](Cloudfront_notes.md)
 8. [AWS Cloudformation](AWS_CFN_notes.md)
+9. [Elastic Beanstalk](Elastic_Beanstalk_notes.md)
+10. [AWS Lambda](AWS_Lambda_notes.md)
