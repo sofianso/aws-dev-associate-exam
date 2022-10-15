@@ -12,3 +12,4 @@
 10. [AWS Lambda](AWS_Lambda_notes.md)
 11. [AWS ECS, Fargate, ECR ](AWS_ECS_Fargate_ECR_notes.md)
 12. [AWS CI/CD](AWS_CI_CD_notes.md)
+13. [Amazon RDS and ElastiCache](Amazon_RDS_and_ElastiCache.md)
