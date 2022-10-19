@@ -15,3 +15,5 @@
 13. [Amazon RDS and ElastiCache](Amazon_RDS_and_ElastiCache_notes.md)
 14. [Amazon DynamoDB](Amazon_DynamoDB_notes.md)
 15. [API Gateway](API_Gateway_notes.md)
+16. [AWS Serverless Application Model (SAM)](AWS_SAM_notes.md)
+17. [AWS Application Integration](AWS_Application_Integration_notes.md)
