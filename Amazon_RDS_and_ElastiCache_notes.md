@@ -11,7 +11,7 @@
   - SQL Server
   - PostgreSQL
 - You can only scale RDS up (Compute and Storage). For example, `db.m4.large 8GB RAM` to `db.m4.2xl 32GB RAM`.
-- MS SQL is the only DB engine that can't be scaled in storage and storage type.
+- MySQL is the only DB engine that can't be scaled in storage and storage type.
 - Scaling compute will cause downtime.
 
 ## Multi-AZ Deployments VS Read Replicas
