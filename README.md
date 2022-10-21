@@ -17,3 +17,4 @@
 15. [API Gateway](API_Gateway_notes.md)
 16. [AWS Serverless Application Model (SAM)](AWS_SAM_notes.md)
 17. [AWS Application Integration](AWS_Application_Integration_notes.md)
+18. [AWS Monitoring, Logging & Auditing](AWS_Monitoring_Logging_Auditing_notes.md)

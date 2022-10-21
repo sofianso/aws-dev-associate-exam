@@ -1,5 +1,10 @@
 # VPC Notes
 
+## Inboud VS Outbound
+
+![inbound_vs_outbound](images/inbound_vs_outbound.jpg)
+As per image above, you want to block inbound traffic to your instance that is hosting the web database because you only want your web server to CRUD it. However, you do want the instance to be able to connect **outbound** to get updates of the latest version.
+
 ## Route Tables
 
 NAT Gateway must be in a public subnet.
