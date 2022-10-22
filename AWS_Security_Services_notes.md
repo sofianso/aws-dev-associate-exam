@@ -35,15 +35,12 @@ AWS CloudHSM provides a dedicated single-tenant managed service for securely cre
 
 ## AWS Secrets Manager VS AWS SSM Parameter Store
 
-|        Features        |                  AWS Secrets Manager                   | AWS SSM Parameter Store |
-| :--------------------: | :----------------------------------------------------: | :---------------------: |
-| Automatic Key Rotation | Yes, built-in for some services, use Lambda for others | No native key rotation  |
-
-| Key/Value Type | Encrypted only | String, StringList, SecureString(encrypted) |
-
-| Change History | No | Yes |
-
-| Price | Around $.40 per secret | Free for standard, changes for advanced |
+|        Features        |                  AWS Secrets Manager                   |           AWS SSM Parameter Store           |
+| :--------------------: | :----------------------------------------------------: | :-----------------------------------------: |
+| Automatic Key Rotation | Yes, built-in for some services, use Lambda for others |           No native key rotation            |
+|     Key/Value Type     |                     Encrypted only                     | String, StringList, SecureString(encrypted) |
+|     Change History     |                           No                           |                     Yes                     |
+|         Price          |                 Around $.40 per secret                 |   Free for standard, changes for advanced   |
 
 Ideally, **Secrets Manager** is ideal for services such as Amazon RDS, Amazon Redshift, Amazon DocumentDB because it helps meet your security and compliance requirements by enabling you to **rotate secrets** safely without the need for code deployments.
 
